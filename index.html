@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <!-- Favicon -->
+    <link rel="stylesheet" href="./assets/images/logo/favicon.png">
+
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Swiper Slider Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+    <!-- Themify Icons -->
+    <link rel="stylesheet" href="./css/themify-icons.css">
+
+    <!-- Custom Responsiveness CSS File -->
+    <link rel="stylesheet" href="./css/responsiveness.css">
+
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarText" data-bs-offset="0" class="navbar-nav" tabindex="0">
+    
+    
+    <!-- ====================== Start Header Section ======================== -->
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-sticky">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="./assets/images/logo/oneshot-white.png" class="img-fluid navbar-brand-regular">
+                <img src="./assets/images/logo/oneshot-pink.png" class="img-fluid navbar-brand-sticky">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link scroll active" aria-current="page" href="home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link scroll" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link scroll" href="#screenshots">Screenshots</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link scroll" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link scroll" href="#contact">Contact</a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-- ====================== End Header Section ======================== -->
+
+    <!-- ====================== Start Home Section ======================== -->
+
+    <section id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-lg-6">
+                    <div class="home_text">
+                        <h2>Present your app with <span style="font-family: var(--Lobster); color: rgb(247, 141, 1);" class="text-uppercase">oneshot</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis ipsum libero, 
+                            architecto voluptates tempore enim minus excepturi doloremque tempora itaque 
+                            facere cupiditate illo fugit voluptatum nemo aliquam fugiat non. Minima, natus quam. 
+                            Repellendus libero, eum voluptates sapiente perferendis architecto dignissimos.
+                        </p>
+
+                        <!-- Home Download Button -->
+                        <div class="home-download-btn">
+                            <a href="#" class="btn btn-bordered mt-4"><span><i class="fa-solid fa-play"></i></span>Play Store</a>
+                            <a href="#" class="btn btn-bordered mt-4" id="btn-apple"><span><i class="fa-brands fa-apple"></i></span>Apple Store</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-6">
+                    <div class="home-image">
+                        <img src="./assets/images/m.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================== End Home Section ======================== -->
+
+    <!-- ====================== Start Counter Area Section ======================== -->
+
+    <section class="section counter_area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Single Counter -->
+                <div class="col-6 col-sm-3 single_counter text-center">
+                    <!-- Counter Item -->
+                    <div class="counter_inner d-inline-block mb-3">
+                        <span id="count1" class="counter fw-bold">10</span>
+                        <span class="fw-bold">M</span>
+                    </div>
+                    <h5>Users</h5>
+                </div>
+
+                  <!-- Single Counter -->
+                  <div class="col-6 col-sm-3 single_counter text-center">
+                    <!-- Counter Item -->
+                    <div class="counter_inner d-inline-block mb-3">
+                        <span id="count2" class="counter fw-bold">23</span>
+                        <span class="fw-bold">K</span>
+                    </div>
+                    <h5>Download</h5>
+                </div>
+
+                <!-- Single Counter -->
+                <div class="col-6 col-sm-3 single_counter text-center">
+                    <!-- Counter Item -->
+                    <div class="counter_inner d-inline-block mb-3">
+                        <span id="count3" class="counter fw-bold">9</span>
+                        <span class="fw-bold">M</span>
+                    </div>
+                    <h5>Customer</h5>
+                </div>
+
+                <!-- Single Counter -->
+                <div class="col-6 col-sm-3 single_counter text-center">
+                    <!-- Counter Item -->
+                    <div class="counter_inner d-inline-block mb-3">
+                        <span id="count4" class="counter fw-bold">12</span>
+                        <span class="fw-bold">K</span>
+                    </div>
+                    <h5>Developer</h5>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================== End Counter Area Section ======================== -->
+
+    <!-- ====================== Start Promo Area Section ======================== -->
+
+    <section class="promo-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 col-md-8">
+                    <!-- Section Headline -->
+                    <div class="section_heading text-center">
+                        <h2>Why do every people <br><span style="color: rgb(247, 141, 1);">love App-mobile?</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Aliquid, quibusdam qui pariatur quod iusto nam?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mobile_px_20">
+                <!-- Single Promo -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="single_promo_hover single_promo_1 text-center">
+                        <div class="circle_icon">
+                            <span><i class="fa-solid fa-heart-pulse text-white"></i></span>
+                        </div>
+                        <h5>Clean Design</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, blanditiis. Aperiam rerum eum ipsa accusantium?</p>
+                    </div>
+                </div>
+
+               <!-- Single Promo -->
+               <div class="col-md-6 col-lg-4">
+                <div class="single_promo_hover single_promo_1 text-center">
+                    <div class="circle_icon">
+                        <span><i class="fa-solid fa-unlock-keyhole text-white"></i></span>
+                    </div>
+                    <h5>Source Data</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, blanditiis. Aperiam rerum eum ipsa accusantium?</p>
+                </div>
+            </div>
+            
+            <!-- Single Promo -->
+            <div class="col-md-6 col-lg-4">
+                <div class="single_promo_hover single_promo_1 text-center">
+                    <div class="circle_icon">
+                        <span><i class="fa-solid fa-sliders text-white"></i></span>
+                    </div>
+                    <h5>Retina Ready</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, blanditiis. Aperiam rerum eum ipsa accusantium?</p>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================== End Promo Area Section ======================== -->
+    
+    <!-- ====================== Start Feature Section ======================== -->
+
+    <section id="features">
+        <div class="title">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-5 offset-md-1">
+                        <!-- Features Middle -->
+                        <div class="features_middle">
+                            <h2>Our special features</h2>
+                            <!-- Sub Title -->
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur accusamus qui at 
+                                saepe fuga nostrum labore distinctio optio asperiores corrupti.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <!-- Feature Image -->
+                        <div class="feature_img">
+                            <img src="./assets/images/service-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid margin_to_up ipad_px_30">
+            <div class="row">
+                <div class="col-lg-10 col-sm-12 offset-lg-1">
+                    <div class="row">
+                        <!-- Single Feature -->
+                        <div class="col-lg-4 col-sm-6 ">
+                            <div class="single_feature">
+                                <h4>Beautiful Design</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur accusamus qui at 
+                                    saepe fuga.
+                                </p>
+                                <!-- Feature Icon -->
+                                <div class="feature_icon">
+                                    <svg class="svg-inline--fa fa-air-freshener fa-w-12" aria-hidden="true"
+                                        focusable="false" data-prefix="fas" data-icon="air-freshener" role="img" 
+                                        xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" 
+                                        class="bi bi-sunset-fill" viewBox="0 0 16 16">
+                                        <path d="M7.646 4.854a.5.5 0 0 0 .708 0l1.5-1.5a.5.5 0 0 0-.708-.708l-.646.647V1.5a.5.5 0 0 0-1 0v1.793l-.646-.647a.5.5 0 1 0-.708.708l1.5 1.5zm-5.303-.51a.5.5 0 0 1 .707 0l1.414 1.413a.5.5 0 0 1-.707.707L2.343 5.05a.5.5 0 0 1 0-.707zm11.314 0a.5.5 0 0 1 0 .706l-1.414 1.414a.5.5 0 1 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zM11.709 11.5a4 4 0 1 0-7.418 0H.5a.5.5 0 0 0 0 1h15a.5.5 0 0 0 0-1h-3.79zM0 10a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2A.5.5 0 0 1 0 10zm13 0a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Feature -->
+                        <div class="col-lg-4 col-sm-6 ">
+                            <div class="single_feature">
+                                <h4>Pure and Simple</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur accusamus qui at 
+                                    saepe fuga.
+                                </p>
+                                <!-- Feature Icon -->
+                                <div class="feature_icon">
+                                    <svg class="svg-inline--fa fa-anchor fa-w-18" aria-hidden="true"
+                                        focusable="false" data-prefix="fas" data-icon="anchor" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
+                                        fill="currentColor" class="bi bi-nintendo-switch" viewBox="0 0 16 16">
+                                        <path d="M9.34 8.005c0-4.38.01-7.972.023-7.982C9.373.01 10.036 0 10.831 0c1.153 0 1.51.01 1.743.05 1.73.298 3.045 1.6 3.373 3.326.046.242.053.809.053 4.61 0 4.06.005 4.537-.123 4.976-.022.076-.048.15-.08.242a4.136 4.136 0 0 1-3.426 2.767c-.317.033-2.889.046-2.978.013-.05-.02-.053-.752-.053-7.979Zm4.675.269a1.621 1.621 0 0 0-1.113-1.034 1.609 1.609 0 0 0-1.938 1.073 1.9 1.9 0 0 0-.014.935 1.632 1.632 0 0 0 1.952 1.107c.51-.136.908-.504 1.11-1.028.11-.285.113-.742.003-1.053ZM3.71 3.317c-.208.04-.526.199-.695.348-.348.301-.52.729-.494 1.232.013.262.03.332.136.544.155.321.39.556.712.715.222.11.278.123.567.133.261.01.354 0 .53-.06.719-.242 1.153-.94 1.03-1.656-.142-.852-.95-1.422-1.786-1.256Z"/>
+                                        <path d="M3.425.053a4.136 4.136 0 0 0-3.28 3.015C0 3.628-.01 3.956.005 8.3c.01 3.99.014 4.082.08 4.39.368 1.66 1.548 2.844 3.224 3.235.22.05.497.06 2.29.07 1.856.012 2.048.009 2.097-.04.05-.05.053-.69.053-7.94 0-5.374-.01-7.906-.033-7.952-.033-.06-.09-.063-2.03-.06-1.578.004-2.052.014-2.26.05Zm3 14.665-1.35-.016c-1.242-.013-1.375-.02-1.623-.083a2.81 2.81 0 0 1-2.08-2.167c-.074-.335-.074-8.579-.004-8.907a2.845 2.845 0 0 1 1.716-2.05c.438-.176.64-.196 2.058-.2l1.282-.003v13.426Z"/>
+                                      </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Feature -->
+                        <div class="col-lg-5 col-sm-6 ">
+                            <div class="single_feature">
+                                <h4>Color Schemes</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur accusamus qui at 
+                                    saepe fuga.
+                                </p>
+                                <!-- Feature Icon -->
+                                <div class="feature_icon">
+                                    <svg class="svg-inline--fa fa-home fa-w-18" aria-hidden="true"
+                                        focusable="false" data-prefix="fas" data-icon="home" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
+                                        fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"/>
+                                        <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"/>
+                                      </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Feature -->
+                        <div class="col-lg-5 col-sm-6 ">
+                            <div class="single_feature">
+                                <h4>Wow Animations</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur accusamus qui at 
+                                    saepe fuga.
+                                </p>
+                                <!-- Feature Icon -->
+                                <div class="feature_icon">
+                                    <svg class="svg-inline--fa fa-bell-slash fa-w-20" aria-hidden="true"
+                                        focusable="false" data-prefix="fas" data-icon="bell-slash" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
+                                        fill="currentColor" class="bi bi-bell-slash-fill" viewBox="0 0 16 16">
+                                        <path d="M5.164 14H15c-1.5-1-2-5.902-2-7 0-.264-.02-.523-.06-.776L5.164 14zm6.288-10.617A4.988 4.988 0 0 0 8.995 2.1a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 7c0 .898-.335 4.342-1.278 6.113l9.73-9.73zM10 15a2 2 0 1 1-4 0h4zm-9.375.625a.53.53 0 0 0 .75.75l14.75-14.75a.53.53 0 0 0-.75-.75L.625 15.625z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Feature -->
+                        <div class="col-lg-6 col-sm-6 ">
+                            <div class="single_feature">
+                                <h4>Excellent Everything</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur accusamus qui at 
+                                    saepe fuga.
+                                </p>
+                                <!-- Feature Icon -->
+                                <div class="feature_icon">
+                                    <svg class="svg-inline--fa fa-cloud-download fa-w-20" aria-hidden="true"
+                                        focusable="false" data-prefix="fas" data-icon="cloud-download-alt" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
+                                        fill="currentColor" class="bi bi-cloud-arrow-down-fill" viewBox="0 0 16 16">
+                                        <path d="M8 2a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13h8.906C14.502 13 16 11.57 16 9.773c0-1.636-1.242-2.969-2.834-3.194C12.923 3.999 10.69 2 8 2zm2.354 6.854-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 9.293V5.5a.5.5 0 0 1 1 0v3.793l1.146-1.147a.5.5 0 0 1 .708.708z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Feature -->
+                        <div class="col-lg-6 col-sm-6 ">
+                            <div class="single_feature">
+                                <h4>Easy To Customize</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur accusamus qui at 
+                                    saepe fuga.
+                                </p>
+                                <!-- Feature Icon -->
+                                <div class="feature_icon">
+                                    <span><i class="fa-solid fa-atom"></i></span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================== End Feature Section ======================== -->
+
+    <!-- ====================== Start Screen short Section ======================== -->
+
+        <section id="app-screenshots" class="ptb_100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <!-- Screenshots title -->
+                        <div class="section_heading text-center mb-5">
+                            <h2 class="section_title">App Screenshots</h2>
+                            <!-- Section Sub Title -->
+                            <p class="section_sub_title">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sequi laboriosam dolorem distinctio cum hic.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-container app-screen">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <!-- Single Screenshots Image -->
+                        <div class="slider-image">
+                            <img src="./assets/images/screenshots/1.jpg" alt="slide 1">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <!-- Single Screenshots Image -->
+                        <div class="slider-image">
+                            <img src="./assets/images/screenshots/2.jpg" alt="slide 2">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <!-- Single Screenshots Image -->
+                        <div class="slider-image">
+                            <img src="./assets/images/screenshots/3.jpg" alt="slide 3">
+                        </div>
+                    </div> 
+
+                    <div class="swiper-slide">
+                        <!-- Single Screenshots Image -->
+                        <div class="slider-image">
+                            <img src="./assets/images/screenshots/4.jpg" alt="slide 4">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <!-- Single Screenshots Image -->
+                        <div class="slider-image">
+                            <img src="./assets/images/screenshots/5.jpg" alt="slide 5">
+                        </div>
+                    </div>
+
+                
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+    <!-- ====================== End Screen short Section ======================== -->
+
+    <!-- ====================== Start Pricing Section ======================== -->
+
+    <section id="pricing" class="ptb_100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <!-- Pricing Title -->
+                    <div class="section_heading text-center">
+                        <h2>Approdable Packages</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore exercitationem consequatur praesentium.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mobile_px_20">
+                <!-- Single Price -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="single_price">
+                        <!-- Month -->
+                        <div class="month">
+                            Month
+                        </div>
+                        <h5>Premium</h5>
+                        <div class="icon_pad">
+                            <div class="icon_circle">
+                                <span><i class="fa-solid fa-medal"></i></span>
+                            </div>
+                        </div>
+                        <!-- Dollar -->
+                        <div class="doler">
+                            <h2>
+                                <span class="doler-sine">$</span>35
+                            </h2>
+                        </div>
+                        <!-- Features List -->
+                        <ul>
+                            <br>
+                            <li>5GB Linux Web Space</li>
+                            <li>5 MySql Database</li>
+                            <li>24/7 Tech Support</li>
+                            <li>Daily Backups</li>
+                        </ul>
+
+                        <!-- button -->
+                        <a href="#" class="btn btn-bordered mt-4">learn more</a>
+                    </div>
+                </div>
+
+                <!-- Single Price -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="single_price">
+                        <!-- Month -->
+                        <div class="month">
+                            Month
+                        </div>
+                        <h5>Basic</h5>
+                        <div class="icon_pad">
+                            <div class="icon_circle">
+                                <span><i class="fa-regular fa-clipboard"></i></span>
+                            </div>
+                        </div>
+                        <!-- Dollar -->
+                        <div class="doler">
+                            <h2>
+                                <span class="doler-sine">$</span>55
+                            </h2>
+                        </div>
+                        <!-- Features List -->
+                        <ul>
+                            <br>
+                            <li>5GB Linux Web Space</li>
+                            <li>5 MySql Database</li>
+                            <li>24/7 Tech Support</li>
+                            <li>Daily Backups</li>
+                        </ul>
+
+                        <!-- button -->
+                        <a href="#" class="btn btn-bordered mt-4">learn more</a>
+                    </div>
+                </div>
+
+                <!-- Single Price -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="single_price active_price">
+                        <!-- Month -->
+                        <div class="month">
+                            Month
+                        </div>
+                        <h5>Addict</h5>
+                        <div class="icon_pad">
+                            <div class="icon_circle">
+                                <span><i class="fa-solid fa-crown"></i></span>
+                            </div>
+                        </div>
+                        <!-- Dollar -->
+                        <div class="doler">
+                            <h2>
+                                <span class="doler-sine">$</span>80
+                            </h2>
+                        </div>
+                        <!-- Features List -->
+                        <ul>
+                            <br>
+                            <li>5GB Linux Web Space</li>
+                            <li>5 MySql Database</li>
+                            <li>24/7 Tech Support</li>
+                            <li>Daily Backups</li>
+                        </ul>
+
+                        <!-- button -->
+                        <a href="#" class="btn btn-bordered mt-4">learn more</a>
+                    </div>
+                </div>
+
+                 <!-- Single Price -->
+                 <div class="col-md-6 col-lg-3">
+                    <div class="single_price">
+                        <!-- Month -->
+                        <div class="month">
+                            Month
+                        </div>
+                        <h5>Business</h5>
+                        <div class="icon_pad">
+                            <div class="icon_circle">
+                                <span><i class="fa-solid fa-gift"></i></span>
+                            </div>
+                        </div>
+                        <!-- Dollar -->
+                        <div class="doler">
+                            <h2>
+                                <span class="doler-sine">$</span>95
+                            </h2>
+                        </div>
+                        <!-- Features List -->
+                        <ul>
+                            <br>
+                            <li>5GB Linux Web Space</li>
+                            <li>5 MySql Database</li>
+                            <li>24/7 Tech Support</li>
+                            <li>Daily Backups</li>
+                        </ul>
+
+                        <!-- button -->
+                        <a href="#" class="btn btn-bordered mt-4">learn more</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================== End Pricing Section ======================== -->
+
+    <!-- ====================== Start Contact Section ======================== -->
+
+    <section id="contact">
+        <div class="contact ptb_100">
+            <div class="container">
+                <div class="mb-5 text-center">
+                    <h5>Let's Start a Conversition</h5>
+                    <h2 class="fw-bold">Contact Us</h2>
+                </div>
+            </div>
+            <div class="mobile_px_20">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5">
+                            <h4 class="fw-bold">Contact Info</h4>
+                            <ul class="info list-unstyled">
+                                <li class="d-flex align-items-center">
+                                    <span class="pe-3 fa-solid fa-location-dot fs-5"></span>
+                                    <p><a href="">Lorem ipsum dolor sit amet.</a></p>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <span class="pe-3 fa-solid fa-mobile fs-5"></span>
+                                    <p><a href="">+92-304-3865677</a></p>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <span class="pe-3 fa-solid fa-envelope fs-5"></span>
+                                    <p><a href="">info@oneshot.in</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-7 col-md-7 pt-lg-0 pt-md-0 pt-4">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Your Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="Email Address">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea class="textarea" cols="30" rows="4" placeholder="Enter you message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <button class="btn"><span class="fa-solid fa-rocket pe-2 fs-5"></span>Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================== End Contact Section ======================== -->
+
+    <!-- ====================== Start Footer Section ======================== -->
+
+    <footer>
+        <div class="p-3 copyright">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-6 p-3 text-center text-lg-start mob-pb-0">
+                        <p class="my-0">Copyright © 2023 <a href="#">ONESHOT</a>All Rights Reserved</p>
+                    </div>
+                    <div class="col-12 col-lg-6 p-3 text-center text-lg-end mob-pb-0">
+                        <p>Designed by <a href="#" target="_blank"></a>ONESHOT</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ====================== End Footer Section ======================== -->
+
+    <!-- ====================== Scroll Top Up Icon ======================== -->
+
+        <div id="scrollUp" title="Scroll To Top">
+            <a href="#home"><span class="fa-solid fa-arrow-up fs-4 text-white"></span></a> 
+        </div>
+
+
+
+    <!-- Bootstrap Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <!-- Swiper Link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS File -->
+    <script src="./js/main.js"></script>
+</body>
+</html>

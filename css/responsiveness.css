@@ -1,0 +1,167 @@
+
+:root{
+    /* Background Color */
+
+    --bg-white: #fff;
+    --bg-black: #2C2C2C;
+    --bg-light-pink: #ff007a;
+    --bg-light-gray: #f6f9fe;
+    --bg-gradient: linear-gradient(to top, #ff007a 0%, rgba(142, 0, 116, 1 ) 100%);
+    --bg-card-shadow: 0 0.188rem 1.25rem 0px rgba(0,0,0,0.06);
+    --bg-card-shadow: 0 2rem 5rem rgb(0, 0, 0, 0.06);
+    --bg-light-gray-1: #eee;
+
+
+    /* Text Color */
+
+    --primary-font: "Poppins", sans-serif;;
+    --text-white: #fff;
+    --text-black: #2C2C2C;
+    --text-light-black: #444;
+    --text-light-pink: #ff007a;
+    --text-light-gray: #7e8085;
+}
+
+@media (max-width:991px) {
+    
+    /* COMMON CSS */
+    h1,h2{
+        font-size: 2.4rem;
+    }
+    .ipad_px_30{
+        padding: 0 1.875rem;
+    }
+
+/* ============ Header Responsiveness Start ============ */
+
+    .navbar{
+        padding-top: 0.625rem;
+        padding-bottom: 0.75rem;
+    }
+
+    .navbar-brand{
+        width: 50%;
+    }
+
+    .navbar-brand img{
+        max-width: 60%;
+    }
+
+    .navbar-toggler{
+        border-color: var(--text-black);
+    }
+
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+
+    .navbar-toggler-icon{
+        color: var(--text-white);
+        width: 1em;
+        height: 1em;
+    }
+
+    .navbar-sticky-on .navbar-toggler-icon{
+        color: var(--text-black);
+    }
+
+    .navbar .navbar-nav{
+        background: var(--bg-white);
+        border-radius: 0.188rem;
+        text-align: center;
+    }
+
+    .navbar .navbar-nav .nav-item a{
+        padding: 0.625rem 1.5rem;
+        color: var(--text-light-gray);
+    }
+
+/* ============ Header Responsiveness End ============ */
+
+/* ============ Home Responsiveness Start ============ */
+
+#home{
+    padding-top: 7rem;
+}
+
+#home .row{
+    flex-direction: column-reverse;
+}
+
+#home .home_text{
+     text-align: center;
+     margin-bottom: 2rem;
+}
+
+#home .home-download-btn{
+    justify-content: center;
+}
+
+#home .col-sm-12 .home-image{
+    text-align: center;
+}
+
+#home .col-sm-12 .home-image img{
+    max-width: 60%;
+}
+
+/* ============ Home Responsiveness End ============ */
+
+/* ============ Pricing Responsiveness Start ============ */
+
+.single_price{
+    margin-bottom: 2.5rem;
+}
+
+/* ============ Pricing Responsiveness End ============ */
+
+
+}
+
+@media (max-width: 767px) {
+    /* ============ CUSTOM CSS ============ */
+    .mobile_px_20{
+        padding: 0 1.25rem;
+    }
+
+/* ============ Home Responsiveness Start ============ */
+
+#home{
+    padding-top: 5rem;
+}
+
+#home .home_text h2{
+    font-size: 2.438rem;
+    line-height: 3.938rem;
+}
+
+#home .home-download-btn .btn{
+    margin: 0;
+}
+
+.home-image{
+    text-align: center;
+    transform: rotate(0deg) !important;
+}
+
+/* ============ Home Responsiveness End ============ */
+
+/* ============ Features Responsiveness Start ============ */
+#features .title .features_middle{
+    text-align: center;
+}
+
+#features .title .feature_img{
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+#features .title .feature_img img{
+    max-width: 95%;
+}
+
+.margin_to_up{
+    padding-top: 25rem;
+}
+
+}
